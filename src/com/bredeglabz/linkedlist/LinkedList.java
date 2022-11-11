@@ -1,7 +1,7 @@
 package com.bredeglabz.linkedlist;
 
 public class LinkedList <T>{
-	  Node<T> head;
+	 Node<T> head;
 	    Node<T> tail;
 	    public void add(T data) {
 	        Node<T> newMyNode = new Node(data);
@@ -35,6 +35,5 @@ public class LinkedList <T>{
 	            System.out.println();
 	        }
 	    }
-
 
 }
